@@ -6113,26 +6113,34 @@ a.image_link {
   background-image: url("../images/grey-noise-bg.jpg?1369343340");
   text-align: center;
   padding: 70px 0; }
-  /* line 147, /Volumes/mudra/Users/joshua/code/github/gogaruco/gogaruco.github.com/source/stylesheets/all.css.scss */
-  #sponsors .sponsor_level span {
-    font-size: 0.8125em;
-    color: #797979;
-    font-family: 'Square721BT-Roman';
-    text-transform: uppercase;
-    padding-bottom: 20px;
-    display: block; }
-  /* line 156, /Volumes/mudra/Users/joshua/code/github/gogaruco/gogaruco.github.com/source/stylesheets/all.css.scss */
-  #sponsors .sponsor_level ul {
-    padding: 25px 0 5px 0; }
-    /* line 158, /Volumes/mudra/Users/joshua/code/github/gogaruco/gogaruco.github.com/source/stylesheets/all.css.scss */
-    #sponsors .sponsor_level ul li {
-      display: inline; }
-      /* line 161, /Volumes/mudra/Users/joshua/code/github/gogaruco/gogaruco.github.com/source/stylesheets/all.css.scss */
-      #sponsors .sponsor_level ul li img {
-        max-height: 100px;
-        max-width: 185px;
-        padding: 0 10px; }
-  /* line 170, /Volumes/mudra/Users/joshua/code/github/gogaruco/gogaruco.github.com/source/stylesheets/all.css.scss */
+  /* line 146, /Volumes/mudra/Users/joshua/code/github/gogaruco/gogaruco.github.com/source/stylesheets/all.css.scss */
+  #sponsors .sponsor_level {
+    height: 200px; }
+    /* line 149, /Volumes/mudra/Users/joshua/code/github/gogaruco/gogaruco.github.com/source/stylesheets/all.css.scss */
+    #sponsors .sponsor_level.secondary {
+      position: relative;
+      top: -200px;
+      height: 0px; }
+    /* line 156, /Volumes/mudra/Users/joshua/code/github/gogaruco/gogaruco.github.com/source/stylesheets/all.css.scss */
+    #sponsors .sponsor_level span {
+      font-size: 0.8125em;
+      color: #797979;
+      font-family: 'Square721BT-Roman';
+      text-transform: uppercase;
+      padding-bottom: 20px;
+      display: block; }
+    /* line 165, /Volumes/mudra/Users/joshua/code/github/gogaruco/gogaruco.github.com/source/stylesheets/all.css.scss */
+    #sponsors .sponsor_level ul {
+      padding: 25px 0 5px 0; }
+      /* line 167, /Volumes/mudra/Users/joshua/code/github/gogaruco/gogaruco.github.com/source/stylesheets/all.css.scss */
+      #sponsors .sponsor_level ul li {
+        display: inline; }
+        /* line 170, /Volumes/mudra/Users/joshua/code/github/gogaruco/gogaruco.github.com/source/stylesheets/all.css.scss */
+        #sponsors .sponsor_level ul li img {
+          max-height: 100px;
+          max-width: 185px;
+          padding: 0 10px; }
+  /* line 179, /Volumes/mudra/Users/joshua/code/github/gogaruco/gogaruco.github.com/source/stylesheets/all.css.scss */
   #sponsors .prospectus {
     margin-top: 12px;
     display: block;
@@ -6141,3 +6149,7 @@ a.image_link {
     color: #484848;
     text-decoration: underline;
     width: 100%; }
+
+/* line 190, /Volumes/mudra/Users/joshua/code/github/gogaruco/gogaruco.github.com/source/stylesheets/all.css.scss */
+.hidden {
+  display: none; }
